@@ -1,13 +1,11 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { AbBotao } from '../.';
+import { Main } from './src/secoes/Main';
 
 const App = () => {
   return (
-    <div>
-      <AbBotao />
-    </div>
+    <Main />
   );
 };
 

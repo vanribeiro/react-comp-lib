@@ -8,6 +8,6 @@ export default {
 } as ComponentMeta<typeof AbBotao>;
 
 const Template: ComponentStory<typeof AbBotao> = 
-    () => <AbBotao />
+    () => <AbBotao text={"Clique aqui!"}/>
 
 export const Primario = Template.bind({});

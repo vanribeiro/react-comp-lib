@@ -15,10 +15,10 @@ const BotaoEstilizado = styled.button`
     }
 `;
 
-const AbBotao = () => {
+const AbBotao = ({ text } : any) => {
     return (
         <BotaoEstilizado>
-            Clique aqui!
+            { text }
         </BotaoEstilizado>
     )
 }
