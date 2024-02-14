@@ -16,15 +16,6 @@ Tag.args = {
     texto: 'Ab Tag'
 } as AbTagProps;
 
-// const Secundario = Template.bind({});
-
-// Secundario.args = {
-//     texto: 'Ab Botão Secundário',
-//     tipo: 'secundario'
-// } as AbTagProps;
-
-
 export {
-    Tag,
-    // Secundario
+    Tag
 }
