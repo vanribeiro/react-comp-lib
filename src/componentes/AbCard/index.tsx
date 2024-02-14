@@ -1,9 +1,9 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
     background-color: #FFFFFF;
-    box-shadow: 2px 2px 4px #1a1a1a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -51,7 +51,11 @@ const Container = styled.div`
 
 `;
 
-const AbCard = ({ children }: any) => {
+interface AbCardProps {
+    children: ReactNode
+}
+
+const AbCard = ({ children }: AbCardProps) => {
     return (
         <Card>
             <Container>
@@ -62,5 +66,6 @@ const AbCard = ({ children }: any) => {
 }
 
 export {
-    AbCard
+    AbCard,
+    AbCardProps
 };

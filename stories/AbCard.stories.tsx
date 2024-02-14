@@ -7,7 +7,14 @@ export default {
     component: AbCard
 } as ComponentMeta<typeof AbCard>;
 
-const Template: ComponentStory<typeof AbCard> = 
-    () => <AbCard />
+const Card = () => {
+    return (
+        <AbCard>
+            <h1>Olá! Eu sou um card!</h1>
+        </AbCard>
+    );
+};
 
-export const Card = Template.bind({});
+export {
+    Card
+};
