@@ -7,6 +7,7 @@ export default {
   component: AbBotao,
 } as ComponentMeta<typeof AbBotao>;
 
+// @ts-ignore
 const Template: ComponentStory<typeof AbBotao> = args => <AbBotao {...args} />;
 
 const Primario = Template.bind({});

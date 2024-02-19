@@ -56,9 +56,11 @@ interface AbCardProps {
 
 const AbCard = ({ children }: AbCardProps) => {
   return (
-    <Card>
-      <Container>{children}</Container>
-    </Card>
+    <>
+      <Card>
+        <Container>{children}</Container>
+      </Card>
+    </>
   );
 };
 

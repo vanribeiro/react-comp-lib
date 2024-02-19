@@ -8,6 +8,7 @@ export default {
 } as ComponentMeta<typeof AbCampoTexto>;
 
 const Template: ComponentStory<typeof AbCampoTexto> = args => (
+  // @ts-ignore
   <AbCampoTexto {...args} />
 );
 

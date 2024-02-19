@@ -7,6 +7,7 @@ export default {
   component: AbTag,
 } as ComponentMeta<typeof AbTag>;
 
+// @ts-ignore
 const Template: ComponentStory<typeof AbTag> = args => <AbTag {...args} />;
 
 const Tag = Template.bind({});

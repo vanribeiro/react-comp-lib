@@ -8,6 +8,7 @@ export default {
 } as ComponentMeta<typeof AbGrupoOpcoes>;
 
 const Template: ComponentStory<typeof AbGrupoOpcoes> = args => (
+  // @ts-ignore
   <AbGrupoOpcoes {...args} />
 );
 

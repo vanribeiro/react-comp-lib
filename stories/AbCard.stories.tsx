@@ -9,10 +9,16 @@ export default {
 
 const Card = () => {
   return (
+    // @ts-ignore
     <AbCard>
       <h1>Olá! Eu sou um card!</h1>
     </AbCard>
   );
 };
 
-export { Card };
+// @ts-ignore
+const Template: ComponentStory<typeof AbCard> = args => <AbCard {...args} />;
+
+const Default = Template.bind({});
+
+export { Card, Default };
