@@ -13,3 +13,7 @@ npm run story book
 ``` 
 
 After, acess http://localhost:6006/ on the browser.
+
+## Requirements 
+
+- `Node.js  v16.x.x`
